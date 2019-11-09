@@ -1,0 +1,902 @@
+<http://www.example.org/hospitaldetails/coordinates/36>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "84653.57835" ;
+        <http://www.example.org/ns#y>  "113945.3278" .
+
+<http://www.example.org/hospitaldetails/address_details/36>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Tralee" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Kerry" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "V92NX94" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Tralee, Co. Kerry, " .
+
+<http://www.example.org/hospitaldetails/coordinates/2>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "233923.1455" ;
+        <http://www.example.org/ns#y>  "225877.1039" .
+
+<http://www.example.org/hospitaldetails/1>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "1" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Midland Regional Hospital Portlaoise" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/1> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/1> .
+
+<http://www.example.org/hospitaldetails/20>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "20" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "South Tipperary General Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/20> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/20> .
+
+<http://www.example.org/hospitaldetails/coordinates/30>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "128926.2994" ;
+        <http://www.example.org/ns#y>  "225582.2939" .
+
+<http://www.example.org/hospitaldetails/address_details/30>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Newcastle Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Galway" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "H91YR71" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Newcastle Road, Galway, " .
+
+<http://www.example.org/hospitaldetails/33>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "33" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "St John's Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/33> .
+
+<http://www.example.org/hospitaldetails/coordinates/15>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "243131.5005" ;
+        <http://www.example.org/ns#y>  "254000.7" .
+
+<http://www.example.org/hospitaldetails/address_details/15>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Longford Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Westmeath" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "N91NA43" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Longford Road, Mullingar, Co. Westmeath, " .
+
+<http://www.example.org/hospitaldetails/18>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "18" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "St Michael's Hospital Dun Laoghaire" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/18> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/18> .
+
+<http://www.example.org/hospitaldetails/address_details/7>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Dublin Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Louth" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Dublin Road, Dundalk" .
+
+<http://www.example.org/hospitaldetails/coordinates/28>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "187094.4565" ;
+        <http://www.example.org/ns#y>  "178527.3649" .
+
+<http://www.example.org/hospitaldetails/address_details/28>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Tyone" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Tipperary" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "E45PT86" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Tyone, Nenagh, Co. Tipperary, " .
+
+<http://www.example.org/hospitaldetails/coordinates/7>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "304933.9162" ;
+        <http://www.example.org/ns#y>  "305486.799" .
+
+<http://www.example.org/hospitaldetails/12>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "12" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "St Luke's General Hospital Kilkenny" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/12> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/12> .
+
+<http://www.example.org/hospitaldetails/coordinates/22>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "99695.28536" ;
+        <http://www.example.org/ns#y>  "48014.02974" .
+
+<http://www.example.org/hospitaldetails/address_details/1>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Dublin Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Laois" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "R32RW61" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Dublin Road, Portlaoise, Co. Laois, " .
+
+<http://www.example.org/hospitaldetails/6>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "6" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Cavan General Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/6> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/6> .
+
+<http://www.example.org/hospitaldetails/address_details/22>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Carrignagat" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Cork" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "P75DX93" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Carrignagat, Bantry, Co. Cork, " .
+
+<http://www.example.org/hospitaldetails/25>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "25" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Ennis Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/25> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/25> .
+
+<http://www.example.org/hospitaldetails/coordinates/35>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "133719.3214" ;
+        <http://www.example.org/ns#y>  "225686.7119" .
+
+<http://www.example.org/hospitaldetails/address_details/35>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Galway" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Galway" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "H91N973" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Galway, " .
+
+<http://www.example.org/hospitaldetails/38>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "38" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Mayo General Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/38> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/38> .
+
+<http://www.example.org/hospitaldetails/coordinates/1>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "248539.8285" ;
+        <http://www.example.org/ns#y>  "198821.7809" .
+
+<http://www.example.org/hospitaldetails/32>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "32" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "South Infirmary Victoria University Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/32> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/32> .
+
+<http://www.example.org/hospitaldetails/coordinates/14>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "286123.9386" ;
+        <http://www.example.org/ns#y>  "267517.563" .
+
+<http://www.example.org/hospitaldetails/address_details/14>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Navan" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Meath" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "C15RK7Y" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Navan, Co. Meath, " .
+
+<http://www.example.org/hospitaldetails/17>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "17" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "St Vincent's University Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/17> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/17> .
+
+<http://www.example.org/hospitaldetails/address_details/6>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Lisdarn" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Cavan" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "H12A5D7" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Lisdarn, Cavan, " .
+
+<http://www.example.org/hospitaldetails/coordinates/27>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "166764.5734" ;
+        <http://www.example.org/ns#y>  "71915.37076" .
+
+<http://www.example.org/hospitaldetails/address_details/27>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Grenville Place" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Cork" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "T12WE28" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Grenville Place, Cork, " .
+
+<http://www.example.org/hospitaldetails/coordinates/6>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "241108.2195" ;
+        <http://www.example.org/ns#y>  "305926.719" .
+
+<http://www.example.org/hospitaldetails/11>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "11" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Beaumont Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/11> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/11> .
+
+<http://www.example.org/hospitaldetails/coordinates/21>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "262910.9695" ;
+        <http://www.example.org/ns#y>  "111129.5228" .
+
+<http://www.example.org/hospitaldetails/5>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "5" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "The Adelaide & Meath Hospital (Tallaght Hospital) Dublin" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/5> .
+
+<http://www.example.org/hospitaldetails/address_details/21>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Dunmore Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Waterford" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "X91ER8E" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Dunmore Road, Waterford, " .
+
+<http://www.example.org/hospitaldetails/24>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "24" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Mallow General Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/24> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/24> .
+
+<http://www.example.org/hospitaldetails/coordinates/34>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "216990.1175" ;
+        <http://www.example.org/ns#y>  "412551.1811" .
+
+<http://www.example.org/hospitaldetails/address_details/34>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Kilmacrennan Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Donegal" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "F92AE81" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Kilmacrennan Road, Letterkenny, Co. Donegal, " .
+
+<http://www.example.org/hospitaldetails/37>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "37" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "University Hospital Limerick" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/37> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/37> .
+
+<http://www.example.org/hospitaldetails/coordinates/19>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "315270.9066" ;
+        <http://www.example.org/ns#y>  "235749.3699" .
+
+<http://www.example.org/hospitaldetails/address_details/19>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Eccles Street" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Dublin" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "D07R2WY" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Eccles Street, Dublin 7, " .
+
+<http://www.example.org/hospitaldetails/31>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "31" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Portiuncula Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/31> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/31> .
+
+<http://www.example.org/hospitaldetails/coordinates/13>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "303401.8406" ;
+        <http://www.example.org/ns#y>  "122304.6848" .
+
+<http://www.example.org/hospitaldetails/address_details/13>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Newtown Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Wexford" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "Y35y17d" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Newtown Road, Wexford, Y35y17d" .
+
+<http://www.example.org/hospitaldetails/16>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "16" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "St Columcille's Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/16> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/16> .
+
+<http://www.example.org/hospitaldetails/address_details/5>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Tallaght" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Dublin" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Tallaght, Dublin 24" .
+
+<http://www.example.org/hospitaldetails/coordinates/26>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "188388.3285" ;
+        <http://www.example.org/ns#y>  "263899.813" .
+
+<http://www.example.org/hospitaldetails/address_details/26>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Ardsallagh Beg" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Roscommon" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "F42AX61" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Ardsallagh Beg, Co. Roscommon, " .
+
+<http://www.example.org/hospitaldetails/29>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "29" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Sligo Regional Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/29> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/29> .
+
+<http://www.example.org/hospitaldetails/coordinates/5>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "308195.7986" ;
+        <http://www.example.org/ns#y>  "227903.5429" .
+
+<http://www.example.org/hospitaldetails/10>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "10" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Connolly Hospital Dublin" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/10> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/10> .
+
+<http://www.example.org/hospitaldetails/coordinates/20>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "219438.4595" ;
+        <http://www.example.org/ns#y>  "122665.8848" .
+
+<http://www.example.org/hospitaldetails/4>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "4" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Naas General Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/4> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/4> .
+
+<http://www.example.org/hospitaldetails/address_details/20>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Western Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Tipperary" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "E91VY40" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Western Road, Clonmel, Co. Tipperary, " .
+
+<http://www.example.org/hospitaldetails/23>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "23" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Cork University Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/23> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/23> .
+
+<http://www.example.org/hospitaldetails/coordinates/33>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "158298.4279" ;
+        <http://www.example.org/ns#y>  "157008.8367" .
+
+<http://www.example.org/hospitaldetails/address_details/33>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "St. John's Square" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Limerick" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "St. John's Square, Limerick" .
+
+<http://www.example.org/hospitaldetails/36>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "36" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "University Hospital Kerry" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/36> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/36> .
+
+<http://www.example.org/hospitaldetails/coordinates/18>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "324095.6746" ;
+        <http://www.example.org/ns#y>  "228667.4989" .
+
+<http://www.example.org/hospitaldetails/address_details/18>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "George's Street Lower" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Dublin" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "A96P902" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "George's Street Lower, Dun Laoghaire, Co. Dublin, " .
+
+<http://www.example.org/hospitaldetails/30>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "30" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "University Hospital Galway" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/30> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/30> .
+
+<http://www.example.org/hospitaldetails/coordinates/12>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "249849.5305" ;
+        <http://www.example.org/ns#y>  "157441.6319" .
+
+<http://www.example.org/hospitaldetails/address_details/12>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Freshford Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Kilkenny" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "R95FY71" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Freshford Road, Kilkenny, " .
+
+<http://www.example.org/hospitaldetails/15>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "15" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Midland Regional Hospital Mullingar" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/15> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/15> .
+
+<http://www.example.org/hospitaldetails/coordinates/25>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "133732.5354" ;
+        <http://www.example.org/ns#y>  "178235.0779" .
+
+<http://www.example.org/hospitaldetails/address_details/4>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Craddockstown Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Kildare" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "W91AE76" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Craddockstown Road, Naas, Co. Kildare, " .
+
+<http://www.example.org/hospitaldetails/9>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "9" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Our Lady of Lourdes Hospital Drogheda" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/9> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/9> .
+
+<http://www.example.org/hospitaldetails/address_details/25>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Gort Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Clare" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "V95HN29" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Gort Road, Ennis, Co. Clare, " .
+
+<http://www.example.org/hospitaldetails/28>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "28" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Nenagh Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/28> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/28> .
+
+<http://www.example.org/hospitaldetails/coordinates/38>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "114195.8524" ;
+        <http://www.example.org/ns#y>  "289970.125" .
+
+<http://www.example.org/hospitaldetails/address_details/38>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Westport Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Mayo" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "F23H529" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Westport Road, Castlebar, Co. Mayo, " .
+
+<http://www.example.org/hospitaldetails/coordinates/4>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "289392.2816" ;
+        <http://www.example.org/ns#y>  "218724.4999" .
+
+<http://www.example.org/hospitaldetails/3>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "3" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "St James's Hospital Dublin" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/3> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/3> .
+
+<http://www.example.org/hospitaldetails/22>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "22" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Bantry General Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/22> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/22> .
+
+<http://www.example.org/hospitaldetails/coordinates/32>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "168045.1354" ;
+        <http://www.example.org/ns#y>  "71328.93777" .
+
+<http://www.example.org/hospitaldetails/address_details/32>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Old Blackrock Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Cork" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "T12X23H" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Old Blackrock Road, Cork, " .
+
+<http://www.example.org/hospitaldetails/35>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "35" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Merlin Park University Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/35> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/35> .
+
+<http://www.example.org/hospitaldetails/coordinates/17>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "319049.9696" ;
+        <http://www.example.org/ns#y>  "231076.2339" .
+
+<http://www.example.org/hospitaldetails/address_details/17>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Nutley Lane" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Dublin" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "D04T6F4" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Elm Park, Nutley Lane, Dublin 4, " .
+
+<http://www.example.org/hospitaldetails/address_details/9>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Drogheda" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Louth" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "A92VW28" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Drogheda, Co. Louth, " .
+
+<http://www.example.org/hospitaldetails/coordinates/11>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "318014.4006" ;
+        <http://www.example.org/ns#y>  "239461.7999" .
+
+<http://www.example.org/hospitaldetails/address_details/11>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Beaumont Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Dublin" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "D09C562" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Beaumont Road, Dublin 9, " .
+
+<http://www.example.org/hospitaldetails/coordinates/9>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "308563.4386" ;
+        <http://www.example.org/ns#y>  "276047.75" .
+
+<http://www.example.org/hospitaldetails/14>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "14" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Our Lady's Hospital Navan" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/14> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/14> .
+
+<http://www.example.org/hospitaldetails/coordinates/24>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "154551.0944" ;
+        <http://www.example.org/ns#y>  "100117.7888" .
+
+<http://www.example.org/hospitaldetails/address_details/3>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "James's Street" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Dublin" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "D08NHY1" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "James's Street, Dublin 8, " .
+
+<http://www.example.org/hospitaldetails/8>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "8" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Monaghan Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/8> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/8> .
+
+<http://www.example.org/hospitaldetails/address_details/24>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Kilknockin" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Cork" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "P51N288" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Kilknockin, Mallow, Co. Cork, " .
+
+<http://www.example.org/hospitaldetails/27>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "27" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Mercy University Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/27> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/27> .
+
+<http://www.example.org/hospitaldetails/coordinates/37>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "155741.1214" ;
+        <http://www.example.org/ns#y>  "154029.2699" .
+
+<http://www.example.org/hospitaldetails/address_details/37>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Saint Nessan's Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Limerick" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "V94F858" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Saint Nessan's Road, Dooradoyle, Limerick, " .
+
+<http://www.example.org/hospitaldetails/coordinates/3>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "313433.6436" ;
+        <http://www.example.org/ns#y>  "233460.873" .
+
+<http://www.example.org/hospitaldetails/2>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "2" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Midland Regional Hospital Tullamore" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/2> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/2> .
+
+<http://www.example.org/hospitaldetails/21>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "21" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "University Hospital Waterford" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/21> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/21> .
+
+<http://www.example.org/hospitaldetails/coordinates/31>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "184339.0425" ;
+        <http://www.example.org/ns#y>  "230731.3919" .
+
+<http://www.example.org/hospitaldetails/address_details/31>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Ballinasloe" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Galway" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "H53T971" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Ballinasloe, Co. Galway, " .
+
+<http://www.example.org/hospitaldetails/34>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "34" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Letterkenny University Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/34> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/34> .
+
+<http://www.example.org/hospitaldetails/coordinates/16>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "324650.0136" ;
+        <http://www.example.org/ns#y>  "223005.9479" .
+
+<http://www.example.org/hospitaldetails/address_details/16>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Bray Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Dublin" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "D18V9K1" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Bray Road, Loughlinstown, Co. Dublin, " .
+
+<http://www.example.org/hospitaldetails/19>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "19" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Mater Misericordiae Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/19> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/19> .
+
+<http://www.example.org/hospitaldetails/address_details/8>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Monaghan" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Monaghan" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "H18NV91" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Monaghan, " .
+
+<http://www.example.org/hospitaldetails/coordinates/29>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "169786.3464" ;
+        <http://www.example.org/ns#y>  "336269.7351" .
+
+<http://www.example.org/hospitaldetails/address_details/29>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "The Mall" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Sligo" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "F91H684" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "The Mall, Sligo, " .
+
+<http://www.example.org/hospitaldetails/coordinates/10>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "308545.2076" ;
+        <http://www.example.org/ns#y>  "238839.27" .
+
+<http://www.example.org/hospitaldetails/address_details/10>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Mill Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Dublin" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "D15X40D" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Mill Road, Dublin 15, " .
+
+<http://www.example.org/hospitaldetails/coordinates/8>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "266828.5975" ;
+        <http://www.example.org/ns#y>  "333908.8821" .
+
+<http://www.example.org/hospitaldetails/13>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "13" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Wexford General Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/13> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/13> .
+
+<http://www.example.org/hospitaldetails/coordinates/23>
+        a                              <http://www.example.org/ns#coordinates> ;
+        <http://www.example.org/ns#x>  "164819.4034" ;
+        <http://www.example.org/ns#y>  "70216.09277" .
+
+<http://www.example.org/hospitaldetails/address_details/2>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Arden Road" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Offaly" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "R35NY51" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Arden Road, Tullamore, Co. Offaly, " .
+
+<http://www.example.org/hospitaldetails/7>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "7" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Louth County Hospital Dundalk" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/7> .
+
+<http://www.example.org/hospitaldetails/address_details/23>
+        a       <http://www.w3.org/2006/vcard/ns#Address> ;
+        <http://www.w3.org/2006/vcard/ns#address_key>
+                "Wilton" ;
+        <http://www.w3.org/2006/vcard/ns#county>
+                "Cork" ;
+        <http://www.w3.org/2006/vcard/ns#eircode>
+                "T12DC4A" ;
+        <http://www.w3.org/2006/vcard/ns#full_address>
+                "Wilton, Cork, " .
+
+<http://www.example.org/hospitaldetails/26>
+        a                               <http://www.example.org/ns#Hospital> , <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/id>  "26" ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Roscommon County Hospital" ;
+        <ns:coordinates>                <http://www.example.org/hospitaldetails/coordinates/26> ;
+        <vcard:Address>                 <http://www.example.org/hospitaldetails/address_details/26> .
