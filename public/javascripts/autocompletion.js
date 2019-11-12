@@ -116,14 +116,16 @@ var yasr = YASR(document.getElementById("yasr"), {
  * Set some of the hooks to link YASR and YASQE
  */
 yasqe.options.sparql.handlers.success = function(data, status, response) {
-    $(".yasr").show(); $("#close").show();
+    $(".yasr").show();
+    $("#close").show();
     yasr.setResponse({
         response: data,
         contentType: response.getResponseHeader("Content-Type")
     });
 };
 yasqe.options.sparql.handlers.error = function(xhr, textStatus, errorThrown) {
-    $(".yasr").show(); $("#close").show();
+    $(".yasr").show();
+    $("#close").show();
     yasr.setResponse({
         exception: textStatus + ": " + errorThrown
     });
