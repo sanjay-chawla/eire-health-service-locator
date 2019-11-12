@@ -1,0 +1,67 @@
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ns:<http://www.example.org/ns#>
+
+# Query to get name and address of all Centres in a given county
+# The centres name space could be [DentalDetails, HealthCenterDetails]
+
+SELECT DISTINCT ?name ?street ?full_address
+WHERE {
+  ?entity a ns:DentalDetails.
+  ?entity vcard:Address ?uri .
+  ?entity foaf:name ?name .
+  ?uri vcard:county "Galway" .
+  ?uri vcard:address_key ?street .
+  ?uri vcard:full_address ?full_address.
+}
+LIMIT 10
+
+
+
+
+
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ns:<http://www.example.org/ns#>
+
+# Query to get the details of any Dental Centre near to a given HealthCenter based on address_key 
+SELECT ?name ?street ?full_address where { 
+  {
+    select ?street where { 
+      ?ientity vcard:Address ?iuri .
+      ?ientity foaf:name "Ballygar Health Centre, " .
+      ?iuri vcard:address_key ?street .
+    }
+  }
+  ?entity a ns:DentalDetails.
+  ?entity vcard:Address ?uri .
+  ?entity foaf:name ?name .
+  ?uri vcard:county "Galway" .
+  ?uri vcard:address_key ?street .
+  ?uri vcard:full_address ?full_address.
+}
+
+
+
+
+
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ns:<http://www.example.org/ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Query to get name and address of all Centres in a given Irish Grid coordinates (x = easting, y = northing)
+# The centres name space could be [DentalDetails, HealthCenterDetails]
+# Filter can be used to answer near me queries
+
+SELECT DISTINCT ?name ?street ?full_address ?easting
+WHERE {
+  ?entity a ns:DentalDetails.
+  ?entity vcard:Address ?uri .
+  ?entity foaf:name ?name .
+  ?entity ns:coordinates ?coordinate .
+  ?coordinate ns:x ?easting .
+  ?uri vcard:address_key ?street .
+  ?uri vcard:full_address ?full_address.
+  FILTER ( xsd:float(?easting) >= (183784 - 2000) && xsd:float(?easting) <= (183784 + 2000) )
+}
