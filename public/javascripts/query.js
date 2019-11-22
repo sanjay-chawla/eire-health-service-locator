@@ -53,25 +53,25 @@ var getAutocompletionsArrayFromCsv = function(csvString) {
 
 var getlist = function(property) {
     property = property.replace(/ +/g, "");
-    var queryStr = "PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX ihsl:<https://www.scss.tcd.ie/~kamblea/ontologies/2019/10/ireland-health-service-locator#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX lfn: <http://www.dotnetrdf.org/leviathan#>\nPREFIX osi: <http://ontologies.geohive.ie/osi>\n"
-        "SELECT DISTINCT ?" + property + " WHERE {\n" + "?entity vcard:Address ?uri .\n"
-    var countyPredicate = "?uri vcard:county ?" + property + "}\n"
-    var instituteNamePredicate = "?entity foaf:name ?" + property + "}\n"
-    var streetPredicate = "?uri vcard:address_key ?" + property + "}\n"
-    var addressPredicate = "?uri vcard:full_address ?" + property + "}\n"
+    var queryStr = "PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX ihsl:<https://www.scss.tcd.ie/~kamblea/ontologies/2019/10/ireland-health-service-locator#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX lfn: <http://www.dotnetrdf.org/leviathan#>\nPREFIX osi: <http://ontologies.geohive.ie/osi>\n" +
+        "SELECT DISTINCT ?" + property + " WHERE {\n" + "?entity vcard:Address ?address_uri .\n"
+    var addressPredicate = "?address_uri ihsl:fullAddress ?" + property + "\n"
+    var streetPredicate = "?address_uri ihsl:onStreet ?street_uri .\n?street_uri ihsl:streetName ?" + property + "\n"
+    var countyPredicate = ". ?county_uri foaf:name ?" + property + "\n"
+    var instituteNamePredicate = "?entity ihsl:serviceName ?" + property + "\n"
 
     var predicate = (function(prop) {
         switch (prop) {
             case "name":
-                return instituteNamePredicate;
+                return instituteNamePredicate + "}";
             case "County":
-                return countyPredicate;
+                return streetPredicate + countyPredicate + "}";
             case "Street":
-                return streetPredicate;
-            case "Region":
-                return addressPredicate;
+                return addressPredicate + streetPredicate + "}";
+            case "Area":
+                return addressPredicate + "}";
             default:
-                return instituteNamePredicate;
+                return instituteNamePredicate + "}";
         }
     })(property);
 
@@ -82,6 +82,7 @@ var getlist = function(property) {
         awesomplete.list = getAutocompletionsArrayFromCsv(data);
         return data;
     }
+    console.log("Query: " + queryStr + predicate);
     var listUrl = sparqlEndpoint + queryPrefix + encodeURIComponent(queryStr + predicate) + "&format=text";
     console.log(listUrl)
     $.ajax({

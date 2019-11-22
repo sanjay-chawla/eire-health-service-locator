@@ -263,7 +263,6 @@ LIMIT 10
 
 
 
-
 PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX ihsl:<https://www.scss.tcd.ie/~kamblea/ontologies/2019/10/ireland-health-service-locator#>
@@ -511,3 +510,95 @@ SELECT DISTINCT ?name ?address ?street ?county WHERE {
 FILTER(?county = "Cork"). 
 FILTER(?institute IN("NursingHome", "Hospital"))}
 LIMIT 10
+
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ihsl:<https://www.scss.tcd.ie/~kamblea/ontologies/2019/10/ireland-health-service-locator#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX lfn: <http://www.dotnetrdf.org/leviathan#>
+PREFIX osi: <http://ontologies.geohive.ie/osi>
+SELECT DISTINCT ?County WHERE {
+?entity vcard:Address ?address_uri .
+?address_uri ihsl:onStreet ?street_uri .
+?street_uri ihsl:streetName ?County
+. ?county_uri foaf:name ?County
+}
+
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ihsl:<https://www.scss.tcd.ie/~kamblea/ontologies/2019/10/ireland-health-service-locator#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX lfn: <http://www.dotnetrdf.org/leviathan#>
+PREFIX osi: <http://ontologies.geohive.ie/osi>
+SELECT DISTINCT ?Area WHERE {
+?entity vcard:Address ?address_uri .
+?address_uri ihsl:fullAddress ?Area
+}
+
+
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ihsl:<https://www.scss.tcd.ie/~kamblea/ontologies/2019/10/ireland-health-service-locator#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX lfn: <http://www.dotnetrdf.org/leviathan#>
+PREFIX osi: <http://ontologies.geohive.ie/osi>
+SELECT ?county COUNT(?county) as ?count) WHERE {
+?entity ihsl:type ?any .
+?entity vcard:Address ?address_uri .
+?address_uri ihsl:onStreet ?street_uri .
+?street_uri osi:County ?county_uri .
+?county_uri foaf:name ?county .
+}
+GROUP BY ?county
+
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ihsl:<https://www.scss.tcd.ie/~kamblea/ontologies/2019/10/ireland-health-service-locator#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX lfn: <http://www.dotnetrdf.org/leviathan#>
+PREFIX osi: <http://ontologies.geohive.ie/osi>
+SELECT ?county ?institute (COUNT(?institute) as ?count) WHERE {
+?entity ihsl:type ?institute .
+?entity vcard:Address ?address_uri .
+?address_uri ihsl:onStreet ?street_uri .
+?street_uri osi:County ?county_uri .
+?county_uri foaf:name ?county .
+FILTER(?county in ("Dublin")) .
+}
+GROUP BY ?county ?institute
+
+
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ihsl:<https://www.scss.tcd.ie/~kamblea/ontologies/2019/10/ireland-health-service-locator#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX lfn: <http://www.dotnetrdf.org/leviathan#>
+PREFIX osi: <http://ontologies.geohive.ie/osi>
+SELECT ?name ?address ?street ?county WHERE {
+?entity ihsl:type ?institute .
+?entity vcard:Address ?address_uri .
+?address_uri ihsl:onStreet ?street_uri .
+?street_uri osi:County ?county_uri .
+?county_uri foaf:name ?county .
+FILTER (regex(?name, "university", "i") )
+}
+
+
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ihsl:<https://www.scss.tcd.ie/~kamblea/ontologies/2019/10/ireland-health-service-locator#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX lfn: <http://www.dotnetrdf.org/leviathan#>
+PREFIX osi: <http://ontologies.geohive.ie/osi>
+SELECT ?name ?address ?street ?county WHERE {
+?entity ihsl:serviceName ?name .
+?entity vcard:Address ?address_uri .
+?address_uri ihsl:fullAddress ?address .
+?address_uri ihsl:onStreet ?street_uri .
+?street_uri ihsl:streetName ?street .
+?street_uri osi:County ?county_uri .
+?county_uri foaf:name ?county .
+FILTER (regex(?name, "niversity", "i") )
+}
+
+
