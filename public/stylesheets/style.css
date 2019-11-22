@@ -105,7 +105,7 @@ h1 {
 	text-transform: capitalize;
 	font-weight: 700;
 	margin-right: 30px;
-	white-space: nowrap;
+	white-space: pre-line;
 	text-align: center;
 	padding-top: 10px;
 }
@@ -272,6 +272,7 @@ button {
 	-moz-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+	width: auto;
 }
 
 .input-group-icon {
@@ -520,7 +521,8 @@ body {
 }
 
 .wrapper--w680 {
-	max-width: 1200px;
+	max-width: 1350px;
+	padding: 10px;
 }
 
 
@@ -592,7 +594,8 @@ body {
 		float: none;
 	}
 	.tab-list__item.active::after {
-		display: none;
+		display: block;
+
 	}
 }
 
@@ -675,13 +678,7 @@ body {
 .yasqe .CodeMirror {
 	border: 10px solid #eee;
 	background: #e6ecff;
-	max-width: 1200px;
-}
-
-.yasr .CodeMirror {
-	border: 1px solid #eee;
-	background: #e6ecff;
-	max-width: 1200px;
+	max-width: 1350px;
 }
 
 .yasqe .CodeMirror-scroll {
@@ -726,3 +723,4 @@ body {
     overflow: visible;
     box-sizing: border-box;
 }
+

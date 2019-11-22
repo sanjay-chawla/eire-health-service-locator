@@ -27,7 +27,7 @@
          // Default configuration
          var sparqled = function() {
              var config = {
-                 endpoint: "http://ec2-34-243-201-217.eu-west-1.compute.amazonaws.com:8080/test_dental/query"
+                 endpoint: "http://ec2-52-210-17-160.eu-west-1.compute.amazonaws.com:8080/health_services/query"
              };
              return {
                  config: config
@@ -59,7 +59,13 @@
                         <a class="tab-list__link" href="#tab1" onclick="tab = 5; return false;" data-toggle="tab">Pharmacy</a>
                      </li>
                      <li class="tab-list__item">
-                        <a class="tab-list__link" href="#tab2" onclick="tab = 6; return false;" data-toggle="tab">SPARQL</a>
+                        <a class="tab-list__link" href="#tab1" onclick="tab = 6; return false;" data-toggle="tab">All</a>
+                     </li>
+                     <li class="tab-list__item">
+                        <a class="tab-list__link" href="#tab1" onclick="tab = 7; return false;" data-toggle="tab">Stats</a>
+                     </li>
+                     <li class="tab-list__item">
+                        <a class="tab-list__link" href="#tab2" onclick="tab = 8; return false;" data-toggle="tab">SPARQL</a>
                      </li>
                   </ul>
                   <div class="tab-content">
@@ -71,8 +77,8 @@
                                  <div class="rs-select2 js-select-simple select--no-search">
                                     <select name="geography" id="locationpredicate" onchange="getlist(this.value)">
                                        <option>County</option>
-                                       <option>Region</option>
                                        <option>Street</option>
+                                       <option>Area</option>
                                        <option selected="selected">All Ireland</option>
                                     </select>
                                     <div class="select-dropdown"></div>
@@ -83,14 +89,14 @@
                               <div class="input-group">
                                  <label class="label">Near:</label>
                                  <div class="rs-select2 js-select-simple select--no-search">
-                                    <select name="near" id="nearpredicate">
+                                    <select name="near" id="nearpredicate" onchange="change_label()">
                                        <option selected="selected">Any</option>
                                        <option>Me</option>
                                        <option>Coordinates</option>
                                        <option>Hospital</option>
-                                       <option>Health Centre</option>
-                                       <option>Nursing Home</option>
-                                       <option>Dental Clinic</option>
+                                       <option>Healthcenters</option>
+                                       <option>NursingHome</option>
+                                       <option>Dental</option>
                                        <option>Pharmacy</option>
                                     </select>
                                     <div class="select-dropdown"></div>
@@ -99,8 +105,8 @@
                            </div>
                         </div>
                         <div class="input-group">
-                           <label class="label">Where:</label>
-                           <input class="input--style-1" type="text" name="location" placeholder="City, region or specific health institute" required="required" id="where">
+                           <label class="label" id="option">Where:</label>
+                           <input class="input--style-1" type="text" name="location" placeholder="City, region or specific health institute" required="required" id="option_val">
                         </div>
                         <button id="submit" class="btn-submit">search</button>
                      </div>
@@ -154,6 +160,7 @@
              longitude = position.coords.longitude;
              easting = parseFloat(irishCoordinate[0]).toFixed(1);
              northing = parseFloat(irishCoordinate[1]).toFixed(1);
+             console.log("Latitude: " + latitude + "\nLongitude: " + longitude +"\neasting: " + easting +"\northing: " + northing);
              /*doc.innerHTML = "Latitude: " + latitude +
                  "<br>Longitude: " + longitude +
                  "<br>IR_Longitude: " + easting +
