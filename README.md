@@ -15,10 +15,10 @@ Links of open dataset used:
 * The Front-end is a NodeJS application which allows users to build SPARQL queries with a minimalistic and intuitive UI.
 Users could search for a Health Institution from (Hospitals / Health service centre / Nursing Home / Dental clinic / Pharmacy) based on its location. Each institution is on a different Tab as shown below.
 
-* UI has provision to specify two types of near predicate. 
-⋅⋅* First is based on location, a dropdown is provided for the user to select a location-based filter from (All Ireland / County / Area / Street). The location filter could be used for queries like "All Health Centre in Dublin" or "List all Health Institutions near Redmond's Hill street".
+* UI has provision to specify two types of near predicate.
+  * First is based on location, a dropdown is provided for the user to select a location-based filter from (All Ireland / County / Area / Street). The location filter could be used for queries like "All Health Centre in Dublin" or "List all Health Institutions near Redmond's Hill street".
 
-⋅⋅* The second location-based predicate is proximity based. The dropdown has options like (Me / Coordinate / Hospital / Health service centre / Nursing Home / Dental clinic / Pharmacy). This Filter could be used for queries like "List all Health Centre near me", this uses the browsers location and the distance specified in the Range text input (Defaulted to 1000 sq meters) to generate a spatial query. The users could also use this filter to search for health institutions near another one like for example, "List all Nursing Home near Park Pharmacy".
+  * The second location-based predicate is proximity based. The dropdown has options like (Me / Coordinate / Hospital / Health service centre / Nursing Home / Dental clinic / Pharmacy). This Filter could be used for queries like "List all Health Centre near me", this uses the browsers location and the distance specified in the Range text input (Defaulted to 1000 sq meters) to generate a spatial query. The users could also use this filter to search for health institutions near another one like for example, "List all Nursing Home near Park Pharmacy".
 
 * While using the filters, if the user has to type a complete address or name of any institution, an autofill feature is included for better user experience and to avoid typos.
 
